@@ -1,0 +1,12 @@
+--num_iter=100
+--eps=0.002
+--dataset=lsun
+--model=wgangp
+--img_size=64
+--arch=cnn64
+--z_dim=100
+--loss=was
+--seed=0
+--fid_cache=./stats/lsun64.npz
+--num_images=50000
+--pretrain=./logs/lsun64-wgangp-qua/models/model20.pt

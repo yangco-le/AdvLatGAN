@@ -1,0 +1,12 @@
+--num_iter=20
+--eps=0.05
+--dataset=stl10
+--model=wgangp
+--img_size=48
+--arch=cnn48
+--z_dim=100
+--loss=was
+--seed=0
+--fid_cache=./stats/stl10.unlabeled.48.npz
+--num_images=50000
+--pretrain=./logs/stl10-wgangp-qua/models/model20.pt

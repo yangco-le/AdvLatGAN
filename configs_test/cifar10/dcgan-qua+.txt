@@ -1,0 +1,12 @@
+--num_iter=20
+--eps=0.05
+--dataset=cifar10
+--model=dcgan
+--img_size=32
+--arch=cnn32
+--z_dim=100
+--loss=hinge
+--seed=0
+--fid_cache=./stats/cifar10.test.npz
+--num_images=50000
+--pretrain=./logs/cifar10-dcgan-qua/models/model20.pt

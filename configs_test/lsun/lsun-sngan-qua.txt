@@ -1,0 +1,12 @@
+--num_iter=100
+--eps=0.01
+--dataset=lsun
+--model=sngan
+--img_size=64
+--arch=cnn64
+--z_dim=100
+--loss=hinge
+--seed=0
+--fid_cache=./stats/lsun64.npz
+--num_images=50000
+--pretrain=./logs/lsun64-sngan-qua/models/model20.pt
