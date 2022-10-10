@@ -1,6 +1,10 @@
 # AdvLatGAN
 Official implementation of "Improving Generative Adversarial Networks via Adversarial Learning in Latent Space" published at NeurIPS 2022.
 
+This work investigate GAN by rethinking the role of the feed-forward generator as a continuous function. The generation pipeline suffers from the "too continuous" issue when it tries to match up with the real data distribution, which is supported on disjoint manifolds. Adopting adversarial techniques in latent space, we impose an extra (implicit) transform function on the raw Gaussian sampling in GANs to achieve generation performance gain. Introducing targeted sampling transform in GAN training alleviates training challenges and empowers more robust network training pipelines, while the sampling transform in inference (generation) time directly improve the generation quality. 
+
+![sampling_shift](./figures/sampling_shift.jpg)
+
 ## Requirements
 
 Python libraries required: `absl-py`,`scipy`,`tensorboardX`,`torch`,`torchvision`,`tqdm`,`pytorch-gan-metrics`.
