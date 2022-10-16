@@ -2,3 +2,4 @@
 stats
 logs
 *.pyc
+.idea
