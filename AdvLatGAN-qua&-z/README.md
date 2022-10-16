@@ -68,5 +68,3 @@ The example configuration files are based on the default save paths of the model
 ## Evaluation metrics
 
 This repository include Inception Score (IS) and Fréchet Inception Distance (FID) as evaluation metrics. You can also evaluate other metrics e.g. density and coverage via https://github.com/clovaai/generative-evaluation-prdc.
-
-More information will be updated.
