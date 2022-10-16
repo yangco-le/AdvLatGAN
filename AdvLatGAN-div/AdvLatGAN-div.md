@@ -24,13 +24,12 @@ python train.py --dataroot ./data --result_dir './stl_div' --div --dataset 'stl1
 ```
 ## Evaluation
 ### FID
-You first need to download the clean images from Google Drive.
+You first need to download the clean images from Google Drive.</br>
+**CIFAR-10:** </br>
+The downloading URL: https://drive.google.com/file/d/1TzTBtbKh-h6u6O-Ng2yKtYBBakIGEEQO/view?usp=sharing. </br>The local path to unzip: `./cifar_real`
 
-**CIFAR-10:** 
-The downloading URL: https://drive.google.com/file/d/1TzTBtbKh-h6u6O-Ng2yKtYBBakIGEEQO/view?usp=sharing. The local path to unzip: `./cifar_real`
-
-**STL-10:** 
-The downloading URL: https://drive.google.com/file/d/1WoMHuMrcpu5cG1JlNtG1JC3jdUIWRFLg/view?usp=sharing. The local path to unzip: `./stl_real`
+**STL-10:**  </br>
+The downloading URL: https://drive.google.com/file/d/1WoMHuMrcpu5cG1JlNtG1JC3jdUIWRFLg/view?usp=sharing.  </br>The local path to unzip: `./stl_real`
 
 Then, run `evaluate_cifar.sh` or `evaluate_stl.sh` to evaluate the FID on CIFAR-10 or STL-10.
 ### Other Metrics
