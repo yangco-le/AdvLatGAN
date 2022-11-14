@@ -21,4 +21,4 @@ To run the code, please refer to the `README.md` in the subdirectories.
 
 ## Acknowledgements
 
-This repository is built upon https://github.com/w86763777/pytorch-gan-collections, https://github.com/w86763777/pytorch-gan-metrics and https://github.com/HelenMao/MSGAN.
+This repository is built upon [pytorch-gan-collections](https://github.com/w86763777/pytorch-gan-collections), [pytorch-gan-metrics](https://github.com/w86763777/pytorch-gan-metrics) and [MSGAN](https://github.com/HelenMao/MSGAN).
