@@ -12,7 +12,7 @@ This repository involves image datasets including [CIFAR-10](https://www.cs.toro
 
 ## Preparing files for metric calculating
 
-Download npz files of datasets to folder `stats` for calculating FID. Download link: https://drive.google.com/drive/folders/1zcYxkt4J7ANGSzyy-Kt5QYfIjJvXFZ31?usp=sharing. To calaulate FID on other datasets, you can generate the corresponding npz files referring to https://github.com/w86763777/pytorch-gan-metrics.
+Download npz files of datasets to folder `stats` for calculating FID. Download link: [Google Drive](https://drive.google.com/drive/folders/1zcYxkt4J7ANGSzyy-Kt5QYfIjJvXFZ31?usp=sharing). To calaulate FID on other datasets, you can generate the corresponding npz files referring to [Google Drive](https://github.com/w86763777/pytorch-gan-metrics).
 
 ## Training new networks
 
