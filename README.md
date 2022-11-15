@@ -1,5 +1,5 @@
-# AdvLatGAN
-Official implementation of "Improving Generative Adversarial Networks via Adversarial Learning in Latent Space" published at NeurIPS 2022.
+# AdvLatGAN: Adversarial Latent Generative Adversarial Networks
+Official implementation of **NeurIPS 2022 Spotlight** paper "Improving Generative Adversarial Networks via Adversarial Learning in Latent Space".
 
 ![sampling_shift](./figures/sampling_shift.jpg)
 
