@@ -1,9 +1,9 @@
 # AdvLatGAN: Adversarial Latent Generative Adversarial Networks
-Official implementation of **NeurIPS 2022 Spotlight** paper "Improving Generative Adversarial Networks via Adversarial Learning in Latent Space".
+Official implementation of **NeurIPS 2022 Spotlight** paper: "[Improving Generative Adversarial Networks via Adversarial Learning in Latent Space](https://openreview.net/pdf?id=Magl9CSHB87)".
 
 ![sampling_shift](./figures/sampling_shift.jpg)
 
-**A Brief Introduction:** This work integrates adversarial techniques on latent space with GAN to improve the generation performance. The generation pipeline suffers from the "too continuous" issue when it tries to match up with the real data distribution, which is supported on disjoint manifolds. Adopting adversarial techniques in latent space, we impose an extra (implicit) transform function on the raw Gaussian sampling in GANs to achieve generation performance gain. Introducing targeted sampling transform in GAN training alleviates training challenges and empowers more robust network training pipelines, while the sampling transform in inference (generation) time directly improve the generation quality. 
+**A Brief Introduction:** This work integrates adversarial techniques on latent space with GAN to improve the generation performance. The generation pipeline suffers from the "too continuous" issue when it tries to match up with the real data distribution, which is supported on disjoint manifolds. Adopting adversarial techniques in latent space, we impose an extra (implicit) transform function on the raw Gaussian sampling in GANs to perform "surgery" on the latent prior. Introducing targeted sampling transform in GAN training alleviates training challenges and empowers more robust network training pipelines, while the sampling transform in inference (generation) time directly improves the generation quality.
 
 ## Code Organization
 
