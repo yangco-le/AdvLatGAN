@@ -19,6 +19,17 @@ Experiments on -qua and -div are based on different implementations and we separ
 
 To run the code, please refer to the `README.md` in the subdirectories.
 
+## Reference
+
+```bibtex
+    @inproceedings{li2022improving,
+    title={Improving Generative Adversarial Networks via Adversarial Learning in Latent Space},
+    author={Yang Li and Yichuan Mo and Liangliang Shi and Junchi Yan},
+    booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+    year={2022}
+    }
+```
+
 ## Acknowledgements
 
 This repository is built upon [pytorch-gan-collections](https://github.com/w86763777/pytorch-gan-collections), [pytorch-gan-metrics](https://github.com/w86763777/pytorch-gan-metrics) and [MSGAN](https://github.com/HelenMao/MSGAN).
